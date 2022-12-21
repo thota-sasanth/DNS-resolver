@@ -1,2 +1,2 @@
-# DNS-resolver
+# DNSSEC-resolver
 Custom DNSSEC resolver using Python
