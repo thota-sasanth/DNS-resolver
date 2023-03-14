@@ -55,7 +55,7 @@ The following are the results of our DNSSEC resolver for different DNS types :
 </p>
 <br>
 <p align="center">
-  <img src="https://github.com/thota-sasanth/DNSSEC-resolver/blob/main/NS_type.png" width="850" height="200">
+  <img src="https://github.com/thota-sasanth/DNSSEC-resolver/blob/main/NS_type.png" width="800" height="250">
 </p>
 <br>
 <p align="center">
