@@ -1,7 +1,7 @@
 # DNSSEC-resolver
 ## Description
 The aim of this project is to build a custom DNS resolver that supports the DNSSEC (Domain Name System Security Extensions) protocol. The resolver performs the traditional DNS resolution on different domain types (A, NS, MX) and also reports performance metrics such as the query resolution time. To have a secure resolution, the DNS resolver uses the DNSSEC protocol. <br>
-<br>
+
 ## Working
 Workflow of a DNSSEC resolver - <br>
 <br>
@@ -20,7 +20,7 @@ This query returns DNSKEY RRSET which contains public ZSK, KSK, and DNS RRSIG.
 <br>
 <br>
 <p align="center">
-  <img src="https://github.com/thota-sasanth/DNSSEC-resolver/blob/main/RRset.png" width="600" height="300">
+  <img src="https://github.com/thota-sasanth/DNSSEC-resolver/blob/main/RRset.png" width="500" height="200">
 </p>
 <br>
 
