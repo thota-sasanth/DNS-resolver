@@ -11,7 +11,7 @@ Workflow of a DNSSEC resolver - <br>
 <br>
 
 ## Implementation
-First, we take input the "<domainname>" for which we want to do the DNSSEC resolution.
+First, we take input the "domainname" for which we want to do the DNSSEC resolution.
 We start with the root and do the dnssec resolution iteratively.
 We split the domain name with "." and keep appending each part of domain name for every
 query we send with type “DNSKEY” to nameservers . We first start by sending "." with type
@@ -54,17 +54,12 @@ The following are the results of our DNSSEC resolver for different DNS types :
   <img src="https://github.com/thota-sasanth/DNSSEC-resolver/blob/main/A_type.png" width="800" height="200">
 </p>
 <br>
-<br>
-<br>
 <p align="center">
-  <img src="https://github.com/thota-sasanth/DNSSEC-resolver/blob/main/NS_type.png" width="800" height="200">
+  <img src="https://github.com/thota-sasanth/DNSSEC-resolver/blob/main/NS_type.png" width="850" height="200">
 </p>
-<br>
-<br>
 <br>
 <p align="center">
   <img src="https://github.com/thota-sasanth/DNSSEC-resolver/blob/main/MX%20type.png" width="800" height="200">
 </p>
-<br>
 <br>
 <br>
