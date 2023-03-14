@@ -9,6 +9,7 @@ Workflow of a DNSSEC resolver - <br>
   <img src="https://github.com/thota-sasanth/DNSSEC-resolver/blob/main/DNSSEC_workflow.jpeg" width="600" height="500">
 </p>
 <br>
+
 ## Implementation
 First, we take input the "<domainname>" for which we want to do the DNSSEC resolution.
 We start with the root and do the dnssec resolution iteratively.
