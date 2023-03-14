@@ -18,6 +18,7 @@ query we send with type “DNSKEY” to nameservers . We first start by sending 
 “DNSKEY” to root server. If there is no response from root we take the subsequent root in our predefined roots list.
 This query returns DNSKEY RRSET which contains public ZSK, KSK, and DNS RRSIG.
 <br>
+<br>
 <p align="center">
   <img src="https://github.com/thota-sasanth/DNSSEC-resolver/blob/main/RRset.png" width="600" height="300">
 </p>
@@ -50,19 +51,19 @@ The following are the results of our DNSSEC resolver for different DNS types :
 <br>
 <br>
 <p align="center">
-  <img src="https://github.com/thota-sasanth/DNSSEC-resolver/blob/main/A_type.png" width="900" height="300">
+  <img src="https://github.com/thota-sasanth/DNSSEC-resolver/blob/main/A_type.png" width="800" height="200">
 </p>
 <br>
 <br>
 <br>
 <p align="center">
-  <img src="https://github.com/thota-sasanth/DNSSEC-resolver/blob/main/NS_type.png" width="900" height="300">
+  <img src="https://github.com/thota-sasanth/DNSSEC-resolver/blob/main/NS_type.png" width="800" height="200">
 </p>
 <br>
 <br>
 <br>
 <p align="center">
-  <img src="https://github.com/thota-sasanth/DNSSEC-resolver/blob/main/MX%20type.png" width="900" height="300">
+  <img src="https://github.com/thota-sasanth/DNSSEC-resolver/blob/main/MX%20type.png" width="800" height="200">
 </p>
 <br>
 <br>
