@@ -43,7 +43,7 @@ If hashes match then we can trust the child server and the chain of trust expand
 
 Now we repeat the same process for the child server until we get to the authoritative name server which
 has the actual IP of our domain name. We get the response from the authoritative name server
-and return it as “Verified IP Address”.
+and return it as “Verified IP Address”
 
 
 ## Results
